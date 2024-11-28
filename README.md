@@ -1,21 +1,23 @@
-# Readerly Project README
+# We Are Books Project README
 
 ## Getting Started
 
-Follow these steps to set up and run the Readerly project on your local machine.
+Follow these steps to set up and run We Are Books locally.
 
 ### Prerequisites
-- Java 21
+- Java 21 or 22(This project is built on Java 22)
 - Maven (v3.6.x or later recommended)
-- An IDE (e.g., IntelliJ IDEA, Eclipse) is recommended for running the application
+- An IDE (e.g., IntelliJ IDEA) is recommended for running the application
 
 ---
 
 ### 1. Clone the Project
+Create a folder in your machine.
+
 Clone this repository to your local machine using the command:
 
 ```bash
-git clone <repository_url>
+git clone -b master<repository_url>
 ```
 
 Replace `<repository_url>` with the actual URL of this repository.
@@ -40,15 +42,15 @@ Install the required Maven dependencies by running:
 mvn clean install
 ```
 
-This will download and configure all necessary project dependencies.
+This will download and configure all necessary project dependencies. 
 
 ---
 
 ### 4. Run the Application
-Run the `main` method in the `ReaderlyApplication` class, located at:
+Run the `main` method in the `WeAreBooksApplication` class, located at:
 
 ```
-src\main\java\com\example\Readerly\ReaderlyApplication.java
+src\main\java\com\example\WeAreBooks\WeAreBooksApplication.java
 ```
 
 You can use your IDE's built-in functionality to execute the `main` method.
@@ -64,4 +66,4 @@ src\main\resources\application.properties
 ```
 
 ---
-
+Thank you for enjoying the project👋
