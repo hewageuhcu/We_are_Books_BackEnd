@@ -53,7 +53,7 @@ public class ReviewController {
 
     @GetMapping("/book/{bookId}")
     public ResponseEntity<?> getReviewsByBook(@PathVariable String bookId) {
-        try{
+        try {
           return ResponseEntity.ok(reviewService.getReviewsByBook(bookId));
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
