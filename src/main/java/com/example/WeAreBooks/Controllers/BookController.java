@@ -19,14 +19,14 @@ public class BookController {
         this.bookService = bookService;
     }
 
-    //Create a new book
+    //add a new book
     @PostMapping
     public ResponseEntity<Book> addBook(@RequestBody Book book) {
         Book savedBook = bookService.addBook(book);
         return ResponseEntity.ok(savedBook);
     }
 
-    //List of all books
+    //get the list of all books
     @GetMapping
     public ResponseEntity<List<Book>> getAllBooks() {
         List<Book> books = bookService.getAllBooks();
