@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Readerly</artifactId>
+	<artifactId>We_Are_Books</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Readerly</name>
 	<description>Book review app back end API</description>
